@@ -1,0 +1,162 @@
+{
+  "ban_hang_quy.xlsx::BaoCao": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 7,
+    "kieu": {
+      "Khu vực": "chu",
+      "Nhân viên": "chu",
+      "Doanh số - Tháng 9": "so"
+    },
+    "o": [
+      [
+        1,
+        "Khu vực",
+        "Miền Bắc"
+      ],
+      [
+        2,
+        "Nhân viên",
+        "Lê Văn Tâm"
+      ]
+    ],
+    "nhan": [
+      "dong_cong_giua_bang",
+      "tieu_de_2_tang",
+      "o_gop_doc"
+    ]
+  },
+  "lop_hoc.xlsx::10A1": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 4,
+    "kieu": {
+      "Họ và tên": "chu",
+      "Ngày sinh": "ngay",
+      "Điểm TB": "so"
+    },
+    "nhan": [
+      "nhieu_sheet"
+    ]
+  },
+  "lop_hoc.xlsx::10A2": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 5,
+    "kieu": {
+      "Họ và tên": "chu",
+      "Ngày sinh": "ngay",
+      "Điểm TB": "so"
+    },
+    "nhan": [
+      "nhieu_sheet"
+    ]
+  },
+  "lop_hoc.xlsx::10A3": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 3,
+    "kieu": {
+      "Họ và tên": "chu",
+      "Ngày sinh": "ngay",
+      "Điểm TB": "so"
+    },
+    "nhan": [
+      "nhieu_sheet"
+    ]
+  },
+  "thoi_khoa_bieu.xlsx::TKB": {
+    "huong": [
+      "NGANG",
+      "CHEO"
+    ],
+    "so_dong": 5,
+    "cot": [
+      "Tiết",
+      "Thứ 2",
+      "Thứ 3",
+      "Thứ 4",
+      "Thứ 5",
+      "Thứ 6",
+      "Thứ 7"
+    ],
+    "o": [
+      [
+        2,
+        "Thứ 4",
+        "Toán"
+      ]
+    ],
+    "nhan": [
+      "bang_cheo_o_chu"
+    ]
+  },
+  "employees.xlsx::Staff": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 6,
+    "kieu": {
+      "Full Name": "chu",
+      "Department": "chu",
+      "Salary ($)": "so",
+      "Start Date": "ngay"
+    },
+    "o": [
+      [
+        0,
+        "Salary ($)",
+        1200
+      ]
+    ],
+    "nhan": [
+      "tieng_anh",
+      "tien_do_la"
+    ]
+  },
+  "nhap_xuat_kho.xlsx::NhapXuat#1": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 5,
+    "kieu": {
+      "Ngày": "ngay",
+      "Số lượng": "so"
+    },
+    "o": [
+      [
+        0,
+        "Mặt hàng",
+        "Gạo"
+      ]
+    ],
+    "nhan": [
+      "hai_bang_mot_sheet"
+    ]
+  },
+  "nhap_xuat_kho.xlsx::NhapXuat#2": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 5,
+    "kieu": {
+      "Ngày": "ngay",
+      "Số lượng": "so",
+      "Khách hàng": "chu"
+    },
+    "o": [
+      [
+        0,
+        "Khách hàng",
+        "Siêu thị Minh Anh"
+      ]
+    ],
+    "nhan": [
+      "hai_bang_mot_sheet"
+    ]
+  }
+}

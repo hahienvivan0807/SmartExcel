@@ -1,0 +1,344 @@
+{
+  "1": {
+    "answer": "3",
+    "nhan": [
+      "giao_duc",
+      "dem_dieu_kien"
+    ],
+    "bang": [
+      "diem_thi.xlsx::HK1"
+    ]
+  },
+  "2": {
+    "answer": "Phạm Thu Hà",
+    "nhan": [
+      "giao_duc",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "diem_thi.xlsx::HK1"
+    ]
+  },
+  "3": {
+    "answer": "9",
+    "nhan": [
+      "giao_duc",
+      "tra_o"
+    ],
+    "bang": [
+      "diem_thi.xlsx::HK1"
+    ]
+  },
+  "4": {
+    "answer": "4",
+    "nhan": [
+      "giao_duc",
+      "dem_dieu_kien"
+    ],
+    "bang": [
+      "diem_thi.xlsx::HK1"
+    ]
+  },
+  "5": {
+    "answer": "8",
+    "nhan": [
+      "giao_duc",
+      "trung_binh",
+      "lam_tron"
+    ],
+    "bang": [
+      "diem_thi.xlsx::HK1"
+    ]
+  },
+  "6": {
+    "answer": "2",
+    "nhan": [
+      "nhan_su",
+      "bang_doc",
+      "dem_dieu_kien"
+    ],
+    "bang": [
+      "nhan_vien.xlsx::NhanVien"
+    ]
+  },
+  "7": {
+    "answer": "Bùi Văn Tú",
+    "nhan": [
+      "nhan_su",
+      "bang_doc",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "nhan_vien.xlsx::NhanVien"
+    ]
+  },
+  "8": {
+    "answer": "590",
+    "nhan": [
+      "ban_hang",
+      "bang_cheo",
+      "tong_dieu_kien"
+    ],
+    "bang": [
+      "doanh_thu.xlsx::DoanhThu"
+    ]
+  },
+  "9": {
+    "answer": "Quần jean",
+    "nhan": [
+      "ban_hang",
+      "bang_cheo",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "doanh_thu.xlsx::DoanhThu"
+    ]
+  },
+  "10": {
+    "answer": "950000",
+    "nhan": [
+      "kinh_doanh",
+      "tieu_de_2_tang",
+      "tra_o"
+    ],
+    "bang": [
+      "chi_nhanh.xlsx::DoanhSo"
+    ]
+  },
+  "11": {
+    "answer": "TP.HCM",
+    "nhan": [
+      "kinh_doanh",
+      "tieu_de_2_tang",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "chi_nhanh.xlsx::DoanhSo"
+    ]
+  },
+  "12": {
+    "answer": "30.5",
+    "nhan": [
+      "logistics",
+      "so_don_vi",
+      "tong_dieu_kien"
+    ],
+    "bang": [
+      "van_don.xlsx::VanDon"
+    ]
+  },
+  "13": {
+    "answer": "9",
+    "nhan": [
+      "logistics",
+      "ngay_chu",
+      "dem_dieu_kien"
+    ],
+    "bang": [
+      "van_don.xlsx::VanDon"
+    ]
+  },
+  "14": {
+    "answer": "VD0010",
+    "nhan": [
+      "logistics",
+      "ma_so_0",
+      "tra_o"
+    ],
+    "bang": [
+      "van_don.xlsx::VanDon"
+    ]
+  },
+  "15": {
+    "answer": "1",
+    "nhan": [
+      "logistics",
+      "o_gop_doc",
+      "nhieu_dieu_kien"
+    ],
+    "bang": [
+      "van_don.xlsx::VanDon"
+    ]
+  },
+  "16": {
+    "answer": "VD0007, VD0012",
+    "nhan": [
+      "logistics",
+      "ma_so_0",
+      "liet_ke"
+    ],
+    "bang": [
+      "van_don.xlsx::VanDon"
+    ]
+  },
+  "17": {
+    "answer": "267000",
+    "nhan": [
+      "logistics",
+      "tien",
+      "tong_dieu_kien"
+    ],
+    "bang": [
+      "van_don.xlsx::VanDon"
+    ]
+  },
+  "18": {
+    "answer": "4",
+    "nhan": [
+      "logistics",
+      "khong_dau",
+      "dem_dieu_kien"
+    ],
+    "bang": [
+      "van_don.xlsx::VanDon"
+    ]
+  },
+  "19": {
+    "answer": "VD0006",
+    "nhan": [
+      "logistics",
+      "so_don_vi",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "van_don.xlsx::VanDon"
+    ]
+  },
+  "20": {
+    "answer": "800000",
+    "nhan": [
+      "y_te",
+      "ghep_2_bang",
+      "tong_dieu_kien"
+    ],
+    "bang": [
+      "benh_nhan.xlsx::BenhNhan",
+      "benh_nhan.xlsx::KhamBenh"
+    ]
+  },
+  "21": {
+    "answer": "Lê Thị Cúc",
+    "nhan": [
+      "y_te",
+      "ngay_excel",
+      "tra_o"
+    ],
+    "bang": [
+      "benh_nhan.xlsx::BenhNhan"
+    ]
+  },
+  "22": {
+    "answer": "4",
+    "nhan": [
+      "y_te",
+      "phan_tram",
+      "dem_dieu_kien"
+    ],
+    "bang": [
+      "benh_nhan.xlsx::KhamBenh"
+    ]
+  },
+  "23": {
+    "answer": "2",
+    "nhan": [
+      "y_te",
+      "dem_dieu_kien"
+    ],
+    "bang": [
+      "benh_nhan.xlsx::BenhNhan"
+    ]
+  },
+  "24": {
+    "answer": "Vũ Văn Phát",
+    "nhan": [
+      "y_te",
+      "ngay_excel",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "benh_nhan.xlsx::BenhNhan"
+    ]
+  },
+  "25": {
+    "answer": "973541000",
+    "nhan": [
+      "tai_chinh",
+      "bang_dai",
+      "ngay_excel",
+      "tong_dieu_kien"
+    ],
+    "bang": [
+      "thu_chi.xlsx::GiaoDich"
+    ]
+  },
+  "26": {
+    "answer": "Mua sắm",
+    "nhan": [
+      "tai_chinh",
+      "bang_dai",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "thu_chi.xlsx::GiaoDich"
+    ]
+  },
+  "27": {
+    "answer": "770",
+    "nhan": [
+      "tai_chinh",
+      "bang_dai",
+      "dem_dieu_kien"
+    ],
+    "bang": [
+      "thu_chi.xlsx::GiaoDich"
+    ]
+  },
+  "28": {
+    "answer": "215",
+    "nhan": [
+      "kho",
+      "bang_rong",
+      "ma_so_0",
+      "tra_o"
+    ],
+    "bang": [
+      "ton_kho.xlsx::TonKho"
+    ]
+  },
+  "29": {
+    "answer": "Bút bi",
+    "nhan": [
+      "kho",
+      "bang_rong",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "ton_kho.xlsx::TonKho"
+    ]
+  },
+  "30": {
+    "answer": "0312345678",
+    "nhan": [
+      "doanh_nghiep",
+      "bang_doc",
+      "bang_1_dong",
+      "ma_so_0",
+      "tra_o"
+    ],
+    "bang": [
+      "cong_ty.xlsx::ThongTin"
+    ]
+  },
+  "31": {
+    "answer": "120",
+    "nhan": [
+      "doanh_nghiep",
+      "bang_doc",
+      "bang_1_dong",
+      "tra_o"
+    ],
+    "bang": [
+      "cong_ty.xlsx::ThongTin"
+    ]
+  }
+}

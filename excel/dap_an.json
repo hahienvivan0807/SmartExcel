@@ -1,0 +1,179 @@
+{
+  "1": {
+    "answer": "863",
+    "nhan": [
+      "dong_cong_giua_bang",
+      "tong"
+    ],
+    "bang": [
+      "ban_hang_quy.xlsx::BaoCao"
+    ]
+  },
+  "2": {
+    "answer": "7",
+    "nhan": [
+      "dong_cong_giua_bang",
+      "dem"
+    ],
+    "bang": [
+      "ban_hang_quy.xlsx::BaoCao"
+    ]
+  },
+  "3": {
+    "answer": "Võ Thanh Sơn",
+    "nhan": [
+      "dong_cong_giua_bang",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "ban_hang_quy.xlsx::BaoCao"
+    ]
+  },
+  "4": {
+    "answer": "99",
+    "nhan": [
+      "tra_o"
+    ],
+    "bang": [
+      "ban_hang_quy.xlsx::BaoCao"
+    ]
+  },
+  "5": {
+    "answer": "5",
+    "nhan": [
+      "nhieu_sheet",
+      "gop_sheet",
+      "dem"
+    ],
+    "bang": [
+      "lop_hoc.xlsx::10A1",
+      "lop_hoc.xlsx::10A2",
+      "lop_hoc.xlsx::10A3"
+    ]
+  },
+  "6": {
+    "answer": "8.9",
+    "nhan": [
+      "nhieu_sheet",
+      "max"
+    ],
+    "bang": [
+      "lop_hoc.xlsx::10A2"
+    ]
+  },
+  "7": {
+    "answer": "10A3",
+    "nhan": [
+      "nhieu_sheet",
+      "dap_an_la_ten_sheet"
+    ],
+    "bang": [
+      "lop_hoc.xlsx::10A3"
+    ]
+  },
+  "8": {
+    "answer": "Toán",
+    "nhan": [
+      "bang_cheo_o_chu",
+      "tra_o"
+    ],
+    "bang": [
+      "thoi_khoa_bieu.xlsx::TKB"
+    ]
+  },
+  "9": {
+    "answer": "5",
+    "nhan": [
+      "bang_cheo_o_chu",
+      "dem_toan_bang"
+    ],
+    "bang": [
+      "thoi_khoa_bieu.xlsx::TKB"
+    ]
+  },
+  "10": {
+    "answer": "3",
+    "nhan": [
+      "bang_cheo_o_chu",
+      "dem_o_trong"
+    ],
+    "bang": [
+      "thoi_khoa_bieu.xlsx::TKB"
+    ]
+  },
+  "11": {
+    "answer": "Nguyen Quoc Bao",
+    "nhan": [
+      "tieng_anh",
+      "cau_hoi_tieng_anh",
+      "tien_do_la",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "employees.xlsx::Staff"
+    ]
+  },
+  "12": {
+    "answer": "2",
+    "nhan": [
+      "tieng_anh",
+      "dung_sai",
+      "nhieu_dieu_kien"
+    ],
+    "bang": [
+      "employees.xlsx::Staff"
+    ]
+  },
+  "13": {
+    "answer": "3950",
+    "nhan": [
+      "tieng_anh",
+      "tien_do_la",
+      "tong_dieu_kien"
+    ],
+    "bang": [
+      "employees.xlsx::Staff"
+    ]
+  },
+  "14": {
+    "answer": "Nguyen Quoc Bao",
+    "nhan": [
+      "tieng_anh",
+      "ngay_chu",
+      "max_tra_ten"
+    ],
+    "bang": [
+      "employees.xlsx::Staff"
+    ]
+  },
+  "15": {
+    "answer": "800",
+    "nhan": [
+      "hai_bang_mot_sheet",
+      "tong_dieu_kien"
+    ],
+    "bang": [
+      "nhap_xuat_kho.xlsx::NhapXuat#1"
+    ]
+  },
+  "16": {
+    "answer": "400",
+    "nhan": [
+      "hai_bang_mot_sheet",
+      "tong_dieu_kien"
+    ],
+    "bang": [
+      "nhap_xuat_kho.xlsx::NhapXuat#2"
+    ]
+  },
+  "17": {
+    "answer": "Gạo, Dầu ăn",
+    "nhan": [
+      "hai_bang_mot_sheet",
+      "liet_ke"
+    ],
+    "bang": [
+      "nhap_xuat_kho.xlsx::NhapXuat#2"
+    ]
+  }
+}

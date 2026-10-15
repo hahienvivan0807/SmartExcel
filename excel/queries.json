@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "question": "Tổng doanh số tháng 9 của toàn công ty là bao nhiêu?"
+  },
+  {
+    "id": 2,
+    "question": "Công ty có tất cả bao nhiêu nhân viên kinh doanh?"
+  },
+  {
+    "id": 3,
+    "question": "Nhân viên nào có tổng doanh số quý 3 cao nhất?"
+  },
+  {
+    "id": 4,
+    "question": "Doanh số tháng 8 của Phạm Thị Hoa là bao nhiêu?"
+  },
+  {
+    "id": 5,
+    "question": "Toàn khối có bao nhiêu học sinh xếp loại Giỏi?"
+  },
+  {
+    "id": 6,
+    "question": "Điểm trung bình cao nhất của lớp 10A2 là bao nhiêu?"
+  },
+  {
+    "id": 7,
+    "question": "Học sinh Đinh Công Mạnh học lớp nào?"
+  },
+  {
+    "id": 8,
+    "question": "Thứ 4 tiết 3 học môn gì?"
+  },
+  {
+    "id": 9,
+    "question": "Môn Toán có bao nhiêu tiết trong một tuần?"
+  },
+  {
+    "id": 10,
+    "question": "Thứ 7 học mấy tiết?"
+  },
+  {
+    "id": 11,
+    "question": "Who has the highest salary?"
+  },
+  {
+    "id": 12,
+    "question": "Phòng Sales có bao nhiêu nhân viên đang làm việc (Active)?"
+  },
+  {
+    "id": 13,
+    "question": "Tổng lương của phòng IT là bao nhiêu đô la?"
+  },
+  {
+    "id": 14,
+    "question": "Ai vào công ty sớm nhất?"
+  },
+  {
+    "id": 15,
+    "question": "Tổng số lượng Gạo đã nhập kho là bao nhiêu?"
+  },
+  {
+    "id": 16,
+    "question": "Tổng số lượng Gạo đã xuất kho là bao nhiêu?"
+  },
+  {
+    "id": 17,
+    "question": "Siêu thị Minh Anh đã mua những mặt hàng nào?"
+  }
+]

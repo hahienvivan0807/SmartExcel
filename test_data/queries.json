@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "question": "Lớp 10A có bao nhiêu học sinh?"
+  },
+  {
+    "id": 2,
+    "question": "Ai có điểm Toán cao nhất?"
+  },
+  {
+    "id": 3,
+    "question": "Điểm Văn của Ngô Minh Châu là bao nhiêu?"
+  },
+  {
+    "id": 4,
+    "question": "Có bao nhiêu học sinh nữ?"
+  },
+  {
+    "id": 5,
+    "question": "Điểm trung bình môn Toán của lớp 10A là bao nhiêu?"
+  },
+  {
+    "id": 6,
+    "question": "Phòng Kế toán có mấy nhân viên?"
+  },
+  {
+    "id": 7,
+    "question": "Nhân viên lớn tuổi nhất tên gì?"
+  },
+  {
+    "id": 8,
+    "question": "Tổng doanh thu của Quần jean trong 3 tháng là bao nhiêu?"
+  },
+  {
+    "id": 9,
+    "question": "Sản phẩm nào có doanh thu tháng 3 cao nhất?"
+  },
+  {
+    "id": 10,
+    "question": "Doanh số quý 2 của chi nhánh Đà Nẵng là bao nhiêu?"
+  },
+  {
+    "id": 11,
+    "question": "Chi nhánh nào có tổng doanh số 2 quý cao nhất?"
+  },
+  {
+    "id": 12,
+    "question": "Tổng trọng lượng các đơn gửi đi Hà Nội là bao nhiêu kg?"
+  },
+  {
+    "id": 13,
+    "question": "Có bao nhiêu đơn được gửi trong tháng 10/2026?"
+  },
+  {
+    "id": 14,
+    "question": "Số điện thoại 0399888777 là của mã vận đơn nào?"
+  },
+  {
+    "id": 15,
+    "question": "Kho Bình Dương có bao nhiêu đơn bị hoàn?"
+  },
+  {
+    "id": 16,
+    "question": "Liệt kê các mã vận đơn có mã bưu chính 070000."
+  },
+  {
+    "id": 17,
+    "question": "Tổng cước phí của các đơn đã giao là bao nhiêu?"
+  },
+  {
+    "id": 18,
+    "question": "kho ha noi xuat bao nhieu don?"
+  },
+  {
+    "id": 19,
+    "question": "Đơn nào nặng nhất?"
+  },
+  {
+    "id": 20,
+    "question": "Tổng chi phí khám của bệnh nhân Trần Văn Bảo là bao nhiêu?"
+  },
+  {
+    "id": 21,
+    "question": "Bệnh nhân nào sinh năm 1992?"
+  },
+  {
+    "id": 22,
+    "question": "Có bao nhiêu lượt khám có tỷ lệ BHYT 80%?"
+  },
+  {
+    "id": 23,
+    "question": "Khoa Nội có bao nhiêu bệnh nhân?"
+  },
+  {
+    "id": 24,
+    "question": "Bệnh nhân lớn tuổi nhất tên gì?"
+  },
+  {
+    "id": 25,
+    "question": "Tổng chi trong tháng 3/2026 là bao nhiêu?"
+  },
+  {
+    "id": 26,
+    "question": "Danh mục chi nào tốn nhiều tiền nhất?"
+  },
+  {
+    "id": 27,
+    "question": "Có bao nhiêu giao dịch thu?"
+  },
+  {
+    "id": 28,
+    "question": "Tồn kho ngày 15 của mã hàng 00123 là bao nhiêu?"
+  },
+  {
+    "id": 29,
+    "question": "Mặt hàng nào có tồn kho ngày 31 thấp nhất?"
+  },
+  {
+    "id": 30,
+    "question": "Mã số thuế của công ty là gì?"
+  },
+  {
+    "id": 31,
+    "question": "Công ty có bao nhiêu nhân viên?"
+  }
+]

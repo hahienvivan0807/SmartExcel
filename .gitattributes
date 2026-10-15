@@ -1,0 +1,3 @@
+# Giữ xuống dòng kiểu Linux (LF) cho file chữ – máy chấm build Docker trên Linux
+* text=auto eol=lf
+*.xlsx binary

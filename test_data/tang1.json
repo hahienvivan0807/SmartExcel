@@ -1,0 +1,404 @@
+{
+  "diem_thi.xlsx::HK1": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 7,
+    "kieu": {
+      "Họ tên": "chu",
+      "Lớp": "chu",
+      "Toán": "so",
+      "Văn": "so"
+    },
+    "o": [
+      [
+        0,
+        "Họ tên",
+        "Nguyễn Văn An"
+      ],
+      [
+        6,
+        "Văn",
+        9.5
+      ]
+    ],
+    "nhan": [
+      "tieu_de_bao_cao",
+      "dong_tong",
+      "so_thap_phan"
+    ]
+  },
+  "nhan_vien.xlsx::NhanVien": {
+    "huong": [
+      "DOC"
+    ],
+    "so_dong": 4,
+    "kieu": {
+      "Họ tên": "chu",
+      "Phòng ban": "chu",
+      "Tuổi": "so",
+      "Lương": "so"
+    },
+    "o": [
+      [
+        2,
+        "Họ tên",
+        "Bùi Văn Tú"
+      ],
+      [
+        2,
+        "Lương",
+        22000000
+      ]
+    ],
+    "nhan": [
+      "bang_doc"
+    ]
+  },
+  "doanh_thu.xlsx::DoanhThu": {
+    "huong": [
+      "NGANG",
+      "CHEO"
+    ],
+    "so_dong": 3,
+    "kieu": {
+      "Sản phẩm": "chu",
+      "Tháng 1": "so",
+      "Tháng 3": "so"
+    },
+    "o": [
+      [
+        1,
+        "Tháng 3",
+        210
+      ]
+    ],
+    "nhan": [
+      "bang_cheo"
+    ]
+  },
+  "chi_nhanh.xlsx::DoanhSo": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 3,
+    "cot": [
+      "Chi nhánh",
+      "Doanh số - Quý 1",
+      "Doanh số - Quý 2"
+    ],
+    "kieu": {
+      "Doanh số - Quý 1": "so",
+      "Doanh số - Quý 2": "so"
+    },
+    "o": [
+      [
+        1,
+        "Doanh số - Quý 1",
+        800000
+      ]
+    ],
+    "nhan": [
+      "tieu_de_2_tang",
+      "so_phan_cach_nghin"
+    ]
+  },
+  "van_don.xlsx::VanDon": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 12,
+    "kieu": {
+      "Mã vận đơn": "chu",
+      "SĐT người nhận": "chu",
+      "Mã bưu chính": "chu",
+      "Trọng lượng (kg)": "so",
+      "Ngày gửi": "ngay",
+      "Giờ xuất": "chu",
+      "Cước phí (đ)": "so"
+    },
+    "o": [
+      [
+        0,
+        "SĐT người nhận",
+        "0901234567"
+      ],
+      [
+        6,
+        "Mã bưu chính",
+        "070000"
+      ],
+      [
+        0,
+        "Mã bưu chính",
+        "100000"
+      ],
+      [
+        0,
+        "Trọng lượng (kg)",
+        12.5
+      ],
+      [
+        1,
+        "Kho xuất",
+        "Bình Dương"
+      ],
+      [
+        11,
+        "Kho xuất",
+        "Đà Nẵng"
+      ],
+      [
+        0,
+        "Ngày gửi",
+        "2026-10-01"
+      ],
+      [
+        0,
+        "Giờ xuất",
+        "08:30"
+      ],
+      [
+        0,
+        "Cước phí (đ)",
+        35000
+      ]
+    ],
+    "nhan": [
+      "tieu_de_gop",
+      "o_gop_doc",
+      "ma_so_0",
+      "so_don_vi",
+      "tien",
+      "ngay_chu",
+      "gio",
+      "dong_tong"
+    ]
+  },
+  "benh_nhan.xlsx::BenhNhan": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 5,
+    "kieu": {
+      "Mã BN": "chu",
+      "Ngày sinh": "ngay"
+    },
+    "o": [
+      [
+        4,
+        "Ngày sinh",
+        "1968-03-15"
+      ]
+    ],
+    "nhan": [
+      "nhieu_sheet",
+      "ngay_excel"
+    ]
+  },
+  "benh_nhan.xlsx::KhamBenh": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 7,
+    "kieu": {
+      "Ngày khám": "ngay",
+      "Chi phí": "so",
+      "Tỷ lệ BHYT (%)": "so"
+    },
+    "o": [
+      [
+        0,
+        "Tỷ lệ BHYT (%)",
+        80
+      ],
+      [
+        6,
+        "Tỷ lệ BHYT (%)",
+        0
+      ]
+    ],
+    "nhan": [
+      "nhieu_sheet",
+      "ngay_excel",
+      "phan_tram"
+    ]
+  },
+  "thu_chi.xlsx::GiaoDich": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 3000,
+    "kieu": {
+      "Ngày": "ngay",
+      "Loại": "chu",
+      "Số tiền": "so",
+      "Ghi chú": "chu"
+    },
+    "o": [
+      [
+        0,
+        "Số tiền",
+        2373000
+      ]
+    ],
+    "nhan": [
+      "bang_dai",
+      "o_trong",
+      "chu_dai"
+    ]
+  },
+  "ton_kho.xlsx::TonKho": {
+    "huong": [
+      "NGANG",
+      "CHEO"
+    ],
+    "so_dong": 6,
+    "kieu": {
+      "Mã hàng": "chu",
+      "Tên hàng": "chu",
+      "Ngày 1": "so",
+      "Ngày 31": "so"
+    },
+    "o": [
+      [
+        0,
+        "Mã hàng",
+        "00123"
+      ],
+      [
+        3,
+        "Mã hàng",
+        "10234"
+      ]
+    ],
+    "nhan": [
+      "bang_rong",
+      "ma_so_0"
+    ]
+  },
+  "cong_ty.xlsx::ThongTin": {
+    "huong": [
+      "DOC"
+    ],
+    "so_dong": 1,
+    "kieu": {
+      "Mã số thuế": "chu",
+      "Năm thành lập": "so",
+      "Số nhân viên": "so"
+    },
+    "o": [
+      [
+        0,
+        "Mã số thuế",
+        "0312345678"
+      ]
+    ],
+    "nhan": [
+      "bang_doc",
+      "bang_1_dong",
+      "ma_so_0"
+    ]
+  },
+  "bao_cao_tai_chinh.xlsx::ChiTieu": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 3,
+    "o": [
+      [
+        0,
+        "Chỉ tiêu",
+        "Tổng doanh thu"
+      ]
+    ],
+    "nhan": [
+      "bay_dong_tong_la_du_lieu"
+    ]
+  },
+  "bao_cao_tai_chinh.xlsx::NhanSu": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 5,
+    "kieu": {
+      "Lương": "so"
+    },
+    "o": [
+      [
+        2,
+        "Chức vụ",
+        "Cộng tác viên"
+      ],
+      [
+        3,
+        "Họ tên",
+        "Lò Thị Dung"
+      ],
+      [
+        4,
+        "Chức vụ",
+        "Cộng tác viên"
+      ]
+    ],
+    "nhan": [
+      "bay_dong_trong_giua_bang",
+      "bay_cong_tac_vien",
+      "bay_chu_ky_cuoi_sheet"
+    ]
+  },
+  "vi_du_xoay.xlsx::Ngang": {
+    "huong": [
+      "NGANG"
+    ],
+    "so_dong": 1,
+    "cot": [
+      "Tên",
+      "Lớp",
+      "Tuổi"
+    ],
+    "o": [
+      [
+        0,
+        "Tên",
+        "Văn"
+      ],
+      [
+        0,
+        "Tuổi",
+        18
+      ]
+    ],
+    "nhan": [
+      "bang_1_dong",
+      "goc_trong"
+    ]
+  },
+  "vi_du_xoay.xlsx::Doc": {
+    "huong": [
+      "DOC"
+    ],
+    "so_dong": 1,
+    "cot": [
+      "Tên",
+      "Lớp",
+      "Tuổi"
+    ],
+    "o": [
+      [
+        0,
+        "Tên",
+        "Văn"
+      ],
+      [
+        0,
+        "Tuổi",
+        18
+      ]
+    ],
+    "nhan": [
+      "bang_1_dong",
+      "goc_trong"
+    ]
+  }
+}
