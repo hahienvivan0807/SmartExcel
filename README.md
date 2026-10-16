@@ -36,8 +36,9 @@ pip install -r requirements.txt
 python main.py --xlsx-dir test_data/xlsx_files --queries test_data/queries.json --output test_data/output/submission.csv --openrouter-key KEY_CUA_BAN --openrouter-model qwen/qwen3.7-flash --openrouter-base-url https://openrouter.ai/api/v1
 ```
 
-⚠️ **Không bao giờ ghi key vào code hay commit lên GitHub.** Có thể đặt key vào biến môi trường
-`OPENROUTER_API_KEY` để các công cụ test tự đọc, khỏi phải gõ `--key` mỗi lần.
+⚠️ **Không bao giờ ghi key vào code hay commit lên GitHub.** Khi chạy trên máy, copy `.env.example`
+thành `.env` và dán key OpenRouter vào (hoặc đặt biến môi trường `OPENROUTER_API_KEY`) – `main.py` và
+các công cụ test tự đọc, khỏi phải gõ `--key` mỗi lần. Chi tiết: [CACH_HOAT_DONG.md](CACH_HOAT_DONG.md).
 
 ## Hướng dẫn kiểm thử
 

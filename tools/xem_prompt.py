@@ -13,6 +13,7 @@ import sys
 GOC = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, GOC)
 
+from smartexcel import cau_hinh  # noqa: E402
 from smartexcel.ai import AI  # noqa: E402
 from smartexcel.cau_hoi import doc_cau_hoi  # noqa: E402
 from smartexcel.doc_bang import doc_tat_ca  # noqa: E402
@@ -24,11 +25,11 @@ p = argparse.ArgumentParser()
 p.add_argument("--xlsx-dir", default=os.path.join(TEST, "xlsx_files"))
 p.add_argument("--queries", default=os.path.join(TEST, "queries.json"))
 p.add_argument("--cau", help="id câu muốn in nguyên prompt")
-p.add_argument("--key", default=os.environ.get("OPENROUTER_API_KEY", ""))
-p.add_argument("--model", default="qwen/qwen3.7-flash")
+p.add_argument("--key", default=cau_hinh.lay_key())
+p.add_argument("--model", default=cau_hinh.MODEL)
 a = p.parse_args()
 
-ai = AI(a.key, a.model, "https://openrouter.ai/api/v1") if a.key else None
+ai = AI(a.key, a.model, cau_hinh.BASE_URL) if a.key else None
 cac_bang = doc_tat_ca(a.xlsx_dir, ai)
 tom_tat_tat_ca(cac_bang)
 

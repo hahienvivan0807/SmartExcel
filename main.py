@@ -8,6 +8,7 @@ Luồng chạy:
 import argparse
 import sys
 
+from smartexcel import cau_hinh
 from smartexcel.ai import AI
 from smartexcel.cau_hoi import doc_cau_hoi, ghi_ket_qua
 from smartexcel.doc_bang import doc_tat_ca
@@ -22,9 +23,11 @@ def nhan_tham_so():
     p.add_argument("--xlsx-dir", required=True)
     p.add_argument("--queries", required=True)
     p.add_argument("--output", required=True)
+    # Máy chấm truyền key qua --openrouter-key. Chạy trên máy mình thì bỏ trống → lấy từ
+    # biến môi trường OPENROUTER_API_KEY hoặc file .env (xem smartexcel/cau_hinh.py).
     p.add_argument("--openrouter-key", default="")
-    p.add_argument("--openrouter-model", default="qwen/qwen3.7-flash")
-    p.add_argument("--openrouter-base-url", default="https://openrouter.ai/api/v1")
+    p.add_argument("--openrouter-model", default=cau_hinh.MODEL)
+    p.add_argument("--openrouter-base-url", default=cau_hinh.BASE_URL)
     return p.parse_args()
 
 
@@ -41,6 +44,7 @@ def tra_loi(qid, cau_hoi, cac_bang, dfs, ai):
 
 def main():
     a = nhan_tham_so()
+    a.openrouter_key = a.openrouter_key or cau_hinh.lay_key()
     cac_cau_hoi = doc_cau_hoi(a.queries)
     log(f"Đã đọc {len(cac_cau_hoi)} câu hỏi")
 

@@ -20,12 +20,13 @@ from collections import defaultdict
 
 GOC = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, GOC)
+from smartexcel import cau_hinh  # noqa: E402
 from smartexcel.van_ban import bo_dau  # noqa: E402
 
 p = argparse.ArgumentParser()
 p.add_argument("--bo-test", default="test_data", help='folder bộ test (vd "excel" – bộ thi thử)')
-p.add_argument("--key", default=os.environ.get("OPENROUTER_API_KEY", ""))
-p.add_argument("--model", default="qwen/qwen3.7-flash")
+p.add_argument("--key", default=cau_hinh.lay_key())
+p.add_argument("--model", default=cau_hinh.MODEL)
 p.add_argument("--nhan", default="")
 p.add_argument("--chi-cau-sai", action="store_true")
 p.add_argument("--khong-cache", action="store_true")
@@ -67,7 +68,7 @@ if not a.khong_cache:
 lenh = [sys.executable, os.path.join(GOC, "main.py"),
         "--xlsx-dir", os.path.join(TEST, "xlsx_files"), "--queries", file_queries, "--output", output,
         "--openrouter-key", a.key, "--openrouter-model", a.model,
-        "--openrouter-base-url", "https://openrouter.ai/api/v1"]
+        "--openrouter-base-url", cau_hinh.BASE_URL]
 print(f"Chạy {len(chay)}/{len(tat_ca)} câu...")
 ma_thoat = subprocess.run(lenh, env=env).returncode
 print(f"\nmain.py thoát với mã {ma_thoat}")

@@ -1,4 +1,4 @@
-"""Kết nối tới AI qua OpenRouter (dùng thư viện openai)."""
+"""Kết nối tới Qwen 3.7 Flash qua OpenRouter (dùng thư viện openai, API chuẩn OpenAI)."""
 import hashlib
 import json
 import os
