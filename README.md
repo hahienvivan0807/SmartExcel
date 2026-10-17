@@ -40,6 +40,28 @@ python main.py --xlsx-dir test_data/xlsx_files --queries test_data/queries.json 
 thành `.env` và dán key OpenRouter vào (hoặc đặt biến môi trường `OPENROUTER_API_KEY`) – `main.py` và
 các công cụ test tự đọc, khỏi phải gõ `--key` mỗi lần. Chi tiết: [CACH_HOAT_DONG.md](CACH_HOAT_DONG.md).
 
+## Chạy bằng Docker
+
+```bash
+docker build --platform linux/amd64 -t ai26c0072 .
+```
+
+Truyền key theo **một trong hai cách**:
+
+```bash
+# Cách 1: truyền thẳng qua tham số
+docker run --rm -v "$(pwd)/test_data:/data:ro" -v "$(pwd)/out:/out" ai26c0072 \
+  --xlsx-dir /data/xlsx_files --queries /data/queries.json --output /out/submission.csv \
+  --openrouter-key KEY_CUA_BAN --openrouter-model qwen/qwen3.7-flash --openrouter-base-url https://openrouter.ai/api/v1
+
+# Cách 2: copy .env.example thành .env, dán key vào, rồi thêm --env-file .env
+docker run --rm --env-file .env -v "$(pwd)/test_data:/data:ro" -v "$(pwd)/out:/out" ai26c0072 \
+  --xlsx-dir /data/xlsx_files --queries /data/queries.json --output /out/submission.csv
+```
+
+File `.env` **không** được đóng vào image, nên chạy Docker phải có `--env-file .env` thì mới đọc được key.
+Không có key chương trình vẫn chạy và ghi đủ `submission.csv`, nhưng đáp án để trống.
+
 ## Hướng dẫn kiểm thử
 
 ### Bước 0 – Tạo dữ liệu test (chạy 1 lần, hoặc sau khi sửa script tạo test)
@@ -100,6 +122,6 @@ python tools/xem_prompt.py --key KEY         # gọi AI thật, in code AI viế
 
 ## Nộp bài
 
-- File `teamXXX.zip` ≤ 100MB, `Dockerfile` nằm ngay gốc file ZIP.
+- File `AI26C0072.zip` ≤ 100MB, `Dockerfile` nằm ngay gốc file ZIP.
 - Docker chạy Linux amd64, không GPU, đã cài sẵn thư viện (`requirements.txt`).
 - Không đưa key, `test_data/output/`, `excel/output/` vào file ZIP.
