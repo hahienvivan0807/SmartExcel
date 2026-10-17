@@ -6,13 +6,20 @@ import time
 
 from openai import OpenAI
 
+from . import cau_hinh
 from .log import log
+
+THOI_GIAN_MOI_LAN_GOI = 60   # giây tối đa cho 1 lần gọi API
+CON_LAI_TOI_THIEU = 10       # còn ít hơn chừng này giây thì thôi không gọi AI nữa
 
 
 class AI:
     def __init__(self, key, model, base_url):
         self.model = model
-        self.client = OpenAI(api_key=key, base_url=base_url, timeout=60) if key else None
+        # max_retries=0: tắt retry ngầm của thư viện openai (mặc định 2 lần) → số lần gọi
+        # chỉ do vòng lặp trong hoi() quyết định, dễ kiểm soát thời gian và chi phí.
+        self.client = OpenAI(api_key=key, base_url=base_url,
+                             timeout=THOI_GIAN_MOI_LAN_GOI, max_retries=0) if key else None
         # Chỉ dùng khi test trên máy (tools/cham_diem.py đặt biến này): lưu câu trả lời
         # của AI để lần chạy sau, prompt nào không đổi thì khỏi gọi lại → khỏi tốn tiền.
         # Lúc máy chấm chạy không có biến này → luôn gọi AI thật.
@@ -35,12 +42,17 @@ class AI:
                 return self.cache[khoa]
 
         for lan in range(so_lan_thu):
+            con = cau_hinh.con_lai()
+            if con < CON_LAI_TOI_THIEU:
+                log("Sắp hết tổng thời gian → bỏ qua gọi AI")
+                return ""
             try:
                 res = self.client.chat.completions.create(
                     model=self.model,
                     messages=messages,
                     temperature=0,
                     max_tokens=max_tokens,
+                    timeout=min(THOI_GIAN_MOI_LAN_GOI, con - CON_LAI_TOI_THIEU / 2),
                 )
                 tra_loi = (res.choices[0].message.content or "").strip()
                 if khoa:
@@ -50,5 +62,6 @@ class AI:
                 return tra_loi
             except Exception as e:
                 log(f"Gọi AI lỗi (lần {lan + 1}): {e}")
-                time.sleep(2 * (lan + 1))
+                if lan + 1 < so_lan_thu:
+                    time.sleep(2 * (lan + 1))
         return ""

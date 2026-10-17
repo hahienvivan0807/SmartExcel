@@ -6,10 +6,21 @@ API key KHÔNG ghi trong code. Thứ tự lấy key:
     3. file .env ở thư mục gốc dự án, dòng: OPENROUTER_API_KEY=sk-or-v1-...
 """
 import os
+import time
 
 MODEL = "qwen/qwen3.7-flash"
 BASE_URL = "https://openrouter.ai/api/v1"
 TEN_BIEN_KEY = "OPENROUTER_API_KEY"
+
+# Máy chấm cho tối đa 40 phút → tự dừng ở 35 phút, chừa 5 phút cho khởi động Docker và ghi CSV.
+# Hết giờ thì không gọi AI nữa, câu còn lại để trống, nhưng vẫn ghi đủ file kết quả.
+THOI_GIAN_TONG = 35 * 60
+_BAT_DAU = time.monotonic()
+
+
+def con_lai():
+    """Số giây còn lại trước khi hết THOI_GIAN_TONG (âm nếu đã quá giờ)."""
+    return THOI_GIAN_TONG - (time.monotonic() - _BAT_DAU)
 
 GOC = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 FILE_ENV = os.path.join(GOC, ".env")

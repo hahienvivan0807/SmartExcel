@@ -62,6 +62,9 @@ def main():
         dfs = {b.ten: b.df for b in cac_bang}
 
         for qid, cau_hoi in cac_cau_hoi:
+            if cau_hinh.con_lai() <= 0:
+                log(f"[câu {qid}] hết tổng thời gian → để trống")
+                continue
             try:
                 dap_an[qid] = tra_loi(qid, cau_hoi, cac_bang, dfs, ai)
             except Exception as e:
